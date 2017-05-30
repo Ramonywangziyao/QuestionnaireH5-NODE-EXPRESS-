@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="viewport" content='width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0'/>
+    <link rel='stylesheet' href='/stylesheets/questionStyle.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body onload=switchQuestions()>
+<section class="questionTemplate">
+    <section id="header">
+        <p id="progressText"></p>
+        <div id="progressBar">
+            <div id="progress"></div>
+        </div>
+    </section>
+
+    <section class="question">
+        <h3 id="question-text"></h3>
+    </section>
+    <section id="answer">
+        <button class="ansBut" type="button" id="true">是</button>
+        <button class="ansBut" type="button" id="false">否</button>
+        <button class="ansBut" type="button" id="last">上一题</button>
+    </section>
+</section>
+
+<a href="http://localhost:3000"><div id="report" style="display:none;width:100px;height:100px;background-color: yellow">Report</div></a>
+
+<script>
+    var questions = <%- JSON.stringify(question) %>
+</script>
+<script src="/javascripts/questionHelper.js"></script>
+</body>
+</html>

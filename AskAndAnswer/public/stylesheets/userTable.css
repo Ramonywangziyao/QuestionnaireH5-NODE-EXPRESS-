@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+
+#table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    position: relative;
+    margin: auto;
+    top:100px;
+    width: 50%;
+    text-align: center;
+}
+
+#logout{
+    position: relative;
+    margin: auto;
+    top:30px;
+}

@@ -1,0 +1,199 @@
+#frame{
+    width: 100%;
+    height: auto;
+}
+
+#header{
+    width: 100%;
+    height: 70px;
+    padding: 0;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#title{
+    width: 80%;
+    margin: auto;
+    height: 50px;
+    position: relative;
+}
+
+#line{
+    width: 80%;
+    height: 1px;
+    display: block;
+    position: relative;
+    margin: auto;
+    background-color: #565656;
+}
+
+#logo{
+    display: inline;
+    position: absolute;
+    left:0;
+    top:10px;
+    margin: 0;
+
+}
+
+#titleText{
+    display: inline;
+    font-family: sans-serif;
+    top:20px;
+    position: relative;
+    color: #565656;
+}
+
+
+#comp{
+    position: absolute;
+    right:0;
+    top:0px;
+    width:55px;
+    display: inline;
+}
+
+
+#tag{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    background-color: #eb5e04;
+}
+
+#slogan{
+    color:white;
+    position: relative;
+    top:15%;
+}
+
+#tab1{
+    width: 100%;
+    height: 650px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+#ratioLogo{
+    position: absolute;
+    left:20px;
+    top:40px;
+}
+
+#tableTypeXFrame{
+    width:100%;
+    height:520px;
+    position: relative;
+    top:80px;
+    margin: auto;
+    text-align: center;
+}
+
+#table1{
+    margin: auto;
+    width: 90%;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    font-size: 12px;
+    font-weight: bold;
+    color:#303030;
+}
+
+td{
+    height:50px;
+}
+
+#typeCell{
+    left:0;
+    height:50px;
+    width: 25%;
+    text-align: right;
+    padding-right: 10px;
+    border-right:1px solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
+}
+
+#type{
+    display: inline;
+    width: 30%;
+}
+
+#bar{
+    width: 100%;
+    height: 10px;
+    background-image: url("../images/fade.png");
+    background-size: 100%;
+    background-repeat: repeat-y;
+    overflow: hidden;
+}
+
+#barCell{
+    left:0;
+    padding-left: 10px;
+    padding-right: 20px;
+    height:50px;
+    width:0;
+    border-bottom:1px solid #e5e5e5;
+}
+
+#percCell{
+    display: inline;
+    position: relative;
+    top:5px;
+    font-size: 12px;
+    float:left;
+    padding: 0;
+    margin: 0;
+    color:#eb5e04;
+}
+
+#line2{
+    height:1px;
+    margin: auto;
+    width:85%;
+    position: relative;
+    top:60px;
+    background-color: #e5e5e5;
+}
+
+#tab2{
+    width: 100%;
+    height: 520px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+#table2{
+    margin: auto;
+    width: 90%;
+    position: relative;
+    top:-50px;
+    border-collapse: collapse;
+    font-size: 13px;
+    color:#303030;
+}
+
+#typeCell2{
+    left:0;
+    height:30px;
+    width: 25%;
+    text-align: right;
+    padding-right: 10px;
+    border-right:1px solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
+}
+
+#footer{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    top:50px;
+    margin: auto;
+    text-align: center;
+    color:#565656;
+    font-size: 12px;
+}

@@ -1,0 +1,42 @@
+@keyframes fadein {
+  from{
+    opacity:0
+  }
+  to{
+    opacity:1
+  }
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  resize:none;
+  animation:fadein 2s;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.ansBut{
+  position: relative;
+  display: block;
+  margin:auto;
+  width: 90%;
+  height: 40px;
+  margin-top: 10px;
+  background-color: #eb5e04;
+  border: none;
+  color:white;
+  font-family: sans-serif;
+  outline:none;
+  font-size: 1em;
+  border-radius: 10px;
+}
+
+.ansBut:active{
+   background-color: #894920;
+ }

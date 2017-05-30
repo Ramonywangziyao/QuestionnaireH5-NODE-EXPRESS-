@@ -1,0 +1,13 @@
+#transFrame{
+    position: fixed;
+    width:100%;
+    height:100%;
+    background-color: #eb5e04;
+    text-align: center;
+}
+
+#wait{
+    color:white;
+    position: relative;
+    top:30%;
+}

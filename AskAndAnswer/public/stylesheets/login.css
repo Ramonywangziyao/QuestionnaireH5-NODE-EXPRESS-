@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+
+input{
+    text-align: center;
+}
+
+#admin{
+    display: block;
+    top: 150px;
+    position: relative;
+    margin: auto;
+}
+
+#pass{
+    display: block;
+    position: relative;
+    margin: auto;
+    top:160px;
+}
+
+#login{
+    display: block;
+    position: relative;
+    margin: auto;
+    top:170px;
+}
